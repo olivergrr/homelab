@@ -1,0 +1,21 @@
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Container configuration directories (contain API keys, passwords)
+config/
+
+# Cache and temporary files
+*.log
+*.tmp
+*.cache
+__pycache__/
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
